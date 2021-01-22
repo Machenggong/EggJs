@@ -1,0 +1,30 @@
+2021-01-22 18:33:56,350 ERROR 3048 [-/127.0.0.1/-/10ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (E:\Node\egg-server\node_modules\_egg@2.29.1@egg\lib\application.js:266:15)
+    at Object.get cookies [as cookies] (E:\Node\egg-server\node_modules\_egg@2.29.1@egg\app\extend\context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (E:\Node\egg-server\node_modules\_egg-security@2.8.0@egg-security\app\extend\context.js:91:35)
+    at Object.ensureCsrfSecret (E:\Node\egg-server\node_modules\_egg-security@2.8.0@egg-security\app\extend\context.js:104:13)
+    at csrf (E:\Node\egg-server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\csrf.js:15:11)
+    at dispatch (E:\Node\egg-server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at E:\Node\egg-server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:34:12
+    at dispatch (E:\Node\egg-server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at session (E:\Node\egg-server\node_modules\_koa-session@6.1.0@koa-session\index.js:41:13)
+    at dispatch (E:\Node\egg-server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+
+pid: 3048
+hostname: DESKTOP-P9M3EKN
+
+2021-01-22 18:34:01,326 ERROR 3048 [-/127.0.0.1/-/1ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (E:\Node\egg-server\node_modules\_egg@2.29.1@egg\lib\application.js:266:15)
+    at Object.get cookies [as cookies] (E:\Node\egg-server\node_modules\_egg@2.29.1@egg\app\extend\context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (E:\Node\egg-server\node_modules\_egg-security@2.8.0@egg-security\app\extend\context.js:91:35)
+    at Object.ensureCsrfSecret (E:\Node\egg-server\node_modules\_egg-security@2.8.0@egg-security\app\extend\context.js:104:13)
+    at csrf (E:\Node\egg-server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\csrf.js:15:11)
+    at dispatch (E:\Node\egg-server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at E:\Node\egg-server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:34:12
+    at dispatch (E:\Node\egg-server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at session (E:\Node\egg-server\node_modules\_koa-session@6.1.0@koa-session\index.js:41:13)
+    at dispatch (E:\Node\egg-server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+
+pid: 3048
+hostname: DESKTOP-P9M3EKN
+
